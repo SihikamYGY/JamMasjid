@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+
+body{
+    font-family: 'Arvo', cursive;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.src{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background: linear-gradient(to left ,#000046d0, #1cb5e0c3); 
+    color: white;
+    font-family: 'Arvo', cursive;
+    height: 120px;
+    border-bottom-left-radius: 30px;
+    margin-left: 31px;
+    margin-top: -10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    margin-left: 30px;
+}
+
+footer{
+    background: linear-gradient(to left ,#000046d0, #1cb5e0e7); 
+    height: 110px;
+    border-top-right-radius: 30px;
+    margin-right: 50px;
+    z-index: 1;
+    margin-top: 0px;
+    position: relative;
+}
+
+.gatau{
+    background: linear-gradient(to bottom ,#000046, rgb(8, 123, 155)); 
+    height: 84vh;
+    width: 60px;
+    position: relative;
+}
+
+.waktu {
+    margin-top: -7px;
+}
+
+.tanggallss {
+    display: block;
+    margin-right: 50px;
+}
+
+.tanggallss h2 {
+    font-size: 20px;
+}
+
+marquee{
+    background-color: white;
+    color: black;
+    position: relative;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.h12 {
+    background: linear-gradient(to left ,#020295c1, #1cb5e0c3); 
+    color: white;
+    font-family: 'Arvo', cursive;
+    height: 120px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0px;
+    margin-top: -10px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timmer1{
+    background-color: white;
+    color: black;
+    height: 150px;
+    width: 500px;
+    padding-top: 3px;
+    font-size: 130px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10%;
+    position: relative;
+}
+
+.countdown {
+    background-color: #000046;
+    height: 97%;
+}
+
+.img1{
+    margin-left: 43.5%;
+}
